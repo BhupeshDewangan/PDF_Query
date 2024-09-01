@@ -18,7 +18,7 @@ from gtts import gTTS
 
 # os.getenv("GOOGLE_API_KEY")
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyA33GBXRny_UjzJEd_sNz9VlCIiEdX5SZ8"
+os.environ['GOOGLE_API_KEY'] = <YOUR_API_KEY>
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
